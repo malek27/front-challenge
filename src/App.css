@@ -1,0 +1,70 @@
+ .App {
+  text-align: center;
+}
+
+.mr-auto {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-right:0 !important;
+  margin-top: 1%;
+
+}
+.Footer{
+  background-color: #fe8c00;
+  padding-bottom: 2%;
+}
+.err{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:2%;
+  
+}
+
+.cocktail{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3%;
+}
+.Card{
+  border-radius: 10%;
+  background-color: #d3984a2f;
+}
+.CardIm{
+  border-radius: 10%;
+  padding: 5%;
+}
+.singleC{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Filter{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  align-items: center;
+  width: 100%;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding :5% 0 5% 0;
+  width: auto;
+  text-align: center;
+}
+Link{color: #cd4343;}
+
+body{
+  background: #fe8c00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
